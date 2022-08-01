@@ -1,0 +1,15 @@
+.alert-box {
+    width: 100%;
+    border: 2px solid #f00;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    color: #f00;
+    border-radius: 7px;
+    margin-bottom: 200px;
+}
+.error {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

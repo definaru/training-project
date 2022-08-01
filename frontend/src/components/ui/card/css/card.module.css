@@ -1,0 +1,46 @@
+hr {
+    color: #f9f6f6;
+    background-color: #f9f6f6;
+    border: 0px none;
+    height: 1px;
+    clear: both;
+    margin: 15px 0;
+}
+.card {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.card:hover {
+    box-shadow: 0 1px 12px #ddd;
+}
+.article_header {
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    color: #000080;
+    text-decoration: none;
+    display: table;
+    font-size: 25px;
+}
+.link:hover {
+    color: #222;
+}
+.m-0 {
+    margin: 0 !important;
+}
+.time-wrapper {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 8px;
+    color: #999;
+}
+.close {
+    cursor: pointer;
+}
+.close:hover {
+    color: #f00;
+}

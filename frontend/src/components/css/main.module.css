@@ -1,0 +1,148 @@
+
+@import url(https://glyphsearch.com/bower_components/ionicons/css/ionicons.css) screen;
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200) screen;
+
+.h1 {
+    font-size: 40px;
+    color: #222;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+.sort {
+    display: flex;
+}
+.font-bold {
+    font-weight: 700;
+}
+.cp {
+    cursor: pointer;
+}
+.flex-center {
+    display: flex;
+    gap: 20px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.search_icon {
+    bottom: 20px;
+    left: 10px;
+    color: #999;
+}
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+.card_form {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+.input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    padding: 12px 20px;
+    resize: none;
+    margin-top: 15px;
+    outline: none;
+}
+.input_error {
+    border: 1px solid #f00;
+}
+.text_error {
+    color: #f00;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+}
+.input:focus {
+    border: 1px solid #000080;
+}
+.mt-1 {
+    margin-top: 1em;
+}
+.mb-1 {
+    margin-bottom: 1em;
+}
+.mt-10 {
+    margin-top: 10em;
+}
+.add_button {
+    padding: 12px 30px;
+    font-weight: 900;
+    font-size: 18px;
+    background: #000080;
+    border: 1px solid;
+    border-radius: 7px;
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+}
+.add_button:hover {
+    background: #000;
+}
+.back_button {
+    background: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    gap: 10px;
+}
+.column {
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #d8d8d8;
+    -moz-column-rule: 1px solid #d8d8d8;
+    column-rule: 1px solid #d8d8d8;
+    text-align: justify;
+}
+.time-wrapper {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 8px;
+    color: #999;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    width: 60%;
+}
+.w-full {
+    width: 100%;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.wrapper {
+    display: grid;
+    gap: 10px;
+}
+.m-0 {
+    margin: 0 !important;
+}

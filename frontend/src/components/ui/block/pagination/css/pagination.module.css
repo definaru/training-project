@@ -1,0 +1,28 @@
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+.button {
+    border: 1px solid #ddd;
+    display: grid;
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;    
+}
+.active_button {
+    background: #fff;
+    color: #000080;
+    font-weight: 900;
+}
+.button:hover {
+    cursor: pointer;
+    color: #000080;
+    background: #fff;
+}

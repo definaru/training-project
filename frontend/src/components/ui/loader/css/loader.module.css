@@ -1,0 +1,93 @@
+.container {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.relative {
+    position: relative
+}
+.header {
+    width: 50%;
+    height: 32px;
+    border-radius: 4px;
+}
+.date {
+    width: 25%;
+    height: 16px;
+    border-radius: 4px;
+}
+
+.skeleton {
+    background: #cfcfcf;
+    color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+.skeleton::before {
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background: linear-gradient(to right, #e9ebf09a 25%, #ced1d8ad 50%, #dee0e49c 100%);
+    animation-name: gradient-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    filter: blur(5px);
+}
+
+@keyframes gradient-animation {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+
+.pulse {
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    background: #dc3545;
+    width: 7px;
+    height: 7px;
+    top: -2px;
+    right: -16px;
+    margin-bottom: -8px;
+}
+
+.pulse::after,
+.pulse::before {
+    content: '';
+    position: absolute;
+    border: 2px solid #dc3545;
+    left: -5px;
+    opacity: 0;
+    right: -5px;
+    top: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    animation: pulse 2.5s linear infinite;
+}
+
+.pulse::after {
+    animation-delay: 1.25s;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
